@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: lightgreen;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.bottom {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 295px;
+  left: 195px;
+  background-color: red;
+}
+.left {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 145px;
+  left: 108.4px;
+  background-color: red;
+}
+.right {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 145px;
+  left: 281.6px;
+  background-color: red;
+}
+
+.xline {
+  width: 1px;
+  height: 400px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 199.5px;
+}
+
+.yLine {
+  width: 400px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 199.5px;
+  left: 0px;
+}
+
+.bottomLine {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 1px;
+  background-color: blue;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+}
+
+.leftLine {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 1px;
+  background-color: blue;
+  transform: rotate(210deg);
+  transform-origin: 0% 0%;
+}
+.rightLine {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 1px;
+  background-color: blue;
+  transform: rotate(330deg);
+  transform-origin: 0% 0%;
+}
